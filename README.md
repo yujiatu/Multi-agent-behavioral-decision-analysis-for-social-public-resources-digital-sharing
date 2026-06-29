@@ -22,22 +22,6 @@ Digitalization is reshaping the allocation and sharing of social public resource
 
 ---
 
-## 📁 Repository Structure
-
-```
-├── README.md
-├── LICENSE
-└── Simulation code/
-    ├── func.m               # Core ODE — tripartite replicator dynamics
-    ├── initial_state.m      # Figure 1: sensitivity to initial strategy probabilities + 3D phase portrait
-    ├── analysis_pBM.m       # Figure 2: sensitivity to p, B, and M (3×3 panel)
-    ├── analysis_CET.m       # Figure 3: sensitivity to θs/θd and Cs/Cd (2×3 panel)
-    ├── analysis_Wlambda.m   # Figure 4: sensitivity to W and λ (2×3 panel)
-    └── analysis_LCg.m       # Figure 5: sensitivity to L and Cg (2×3 panel)
-```
-
----
-
 ## 🔢 Model Description
 
 The evolutionary dynamics are governed by the following replicator equations:
@@ -105,17 +89,18 @@ All simulations are calibrated using publicly available data from Sichuan Provin
 
 ---
 
-## ▶️ How to Reproduce the Figures
+## ▶️ Reproduce the Figures
 
 All scripts are self-contained. Run each file independently in MATLAB to reproduce the corresponding figure:
 
 | Script | Figure | Parameters varied |
 |--------|--------|-------------------|
-| `initial_state.m`    | Figure 1 | 8 combinations of initial conditions (*x*₀, *y*₀, *z*₀); 3D phase portrait |
-| `analysis_pBM.m`     | Figure 2 | Regulatory capability *p*; subsidy *B*; penalty *M* |
-| `analysis_CET.m`     | Figure 3 | Transfer cost coefficients *θ*s, *θ*d; sharing investment costs *C*s, *C*d |
-| `analysis_Wlambda.m` | Figure 4 | Synergistic benefits *W*; distribution ratio *λ* |
-| `analysis_LCg.m`     | Figure 5 | Reputational loss *L*; regulatory cost *C*g |
+| `ccc.m`              | Figure 2 | Evolutionary trajectories in 6 scenarios |
+| `initial_state.m`    | Figure 3 | 8 combinations of initial conditions (*x*₀, *y*₀, *z*₀); 3D phase portrait |
+| `analysis_pBM.m`     | Figure 4 | Regulatory capability *p*; subsidy *B*; penalty *M* |
+| `analysis_CET.m`     | Figure 5 | Transfer cost coefficients *θ*s, *θ*d; sharing investment costs *C*s, *C*d |
+| `analysis_Wlambda.m` | Figure 6 | Synergistic benefits *W*; distribution ratio *λ* |
+| `analysis_LCg.m`     | Figure 7 | Reputational loss *L*; regulatory cost *C*g |
 
 ---
 
