@@ -20,7 +20,6 @@ plot(t,y4(:,1),'-k','linewidth',1.5);hold on;
 [t,y5]=ode45(@(t,y) func(t,y,M,B,1.00,L,C1,C2,C3,W,E2,E3,T2,T3,lambda),[0 0.5],[0.4 0.35 0.45]); 
 plot(t,y5(:,1),'-m','linewidth',1.5);hold on;
 xlabel({'(a)'}),ylabel('\itx');
-% legend('\itp=0.05', '\itp=0.30', '\itp=0.65','\itp=0.80', '\itp=1.00', 'Location','northoutside','Orientation','horizontal')
 set(gca, 'FontName', 'Times New Roman','FontSize',12);
 legend('\itp=0.05', '\itp=0.30', '\itp=0.65','\itp=0.80', '\itp=1.00', 'Location','best')
 
