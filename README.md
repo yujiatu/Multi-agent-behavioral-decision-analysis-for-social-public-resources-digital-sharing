@@ -95,12 +95,12 @@ All scripts are self-contained. Run each file independently in MATLAB to reprodu
 
 | Script | Figure | Parameters varied |
 |--------|--------|-------------------|
-| `ccc.m`              | Figure 2 | Evolutionary trajectories in 6 scenarios |
-| `initial_state.m`    | Figure 3 | 8 combinations of initial conditions (*x*₀, *y*₀, *z*₀); 3D phase portrait |
-| `analysis_pBM.m`     | Figure 4 | Regulatory capability *p*; subsidy *B*; penalty *M* |
-| `analysis_CET.m`     | Figure 5 | Transfer cost coefficients *θ*s, *θ*d; sharing investment costs *C*s, *C*d |
-| `analysis_Wlambda.m` | Figure 6 | Synergistic benefits *W*; distribution ratio *λ* |
-| `analysis_LCg.m`     | Figure 7 | Reputational loss *L*; regulatory cost *C*g |
+| `analysis_trajectory.m`  | Figure 2 | Evolutionary trajectories in 6 scenarios |
+| `initial_state.m`        | Figure 3 | 8 combinations of initial conditions (*x*₀, *y*₀, *z*₀); 3D phase portrait |
+| `analysis_pBM.m`         | Figure 4 | Regulatory capability *p*; subsidy *B*; penalty *M* |
+| `analysis_CET.m`         | Figure 5 | Transfer cost coefficients *θ*s, *θ*d; sharing investment costs *C*s, *C*d |
+| `analysis_Wlambda.m`     | Figure 6 | Synergistic benefits *W*; distribution ratio *λ* |
+| `analysis_LCg.m`         | Figure 7 | Reputational loss *L*; regulatory cost *C*g |
 
 ---
 
