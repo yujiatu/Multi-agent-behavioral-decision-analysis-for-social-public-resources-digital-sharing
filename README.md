@@ -106,7 +106,7 @@ All scripts are self-contained. Run each file independently in MATLAB to reprodu
 
 ## 📊 Data Availability
 
-This study is based entirely on **numerical simulation**. The simulation parameters are calibrated using publicly available statistical data from Sichuan Province, China (see Parameter Calibration section above and Table 4 of the manuscript for full details). No raw empirical datasets were collected. The code in this repository is sufficient to fully reproduce all figures in the manuscript.
+This study is based entirely on **numerical simulation**. The simulation parameters are calibrated using publicly available statistical data from Sichuan Province, China (see Parameter Calibration section above and Table 4 of the manuscript for full details). The code in this repository is sufficient to fully reproduce all figures in the manuscript.
 
 ---
 
