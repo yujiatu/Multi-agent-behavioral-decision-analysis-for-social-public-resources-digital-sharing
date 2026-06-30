@@ -23,7 +23,7 @@ end
 grid on
 hold on
 set(gca, 'FontName','Times New Roman','FontSize',12);
-xlabel({('\itx');('                                     \rm(a)')},'Rotation',0);
+xlabel({('\itx');('                                 \rm(a) \itA(0,0,0)')},'Rotation',0);
 ylabel(('\ity'),'Rotation',0);
 zlabel('\itz','Rotation',360,'position',[0 0 1.05]);
 
@@ -44,7 +44,7 @@ end
 grid on
 hold on
 set(gca, 'FontName','Times New Roman','FontSize',12);
-xlabel({('\itx');('                                     \rm(b)')},'Rotation',0);
+xlabel({('\itx');('                                 \rm(b) \itD(1,0,0)')},'Rotation',0);
 ylabel(('\ity'),'Rotation',0);
 zlabel('\itz','Rotation',360,'position',[0 0 1.05]);
 
@@ -65,7 +65,7 @@ end
 grid on
 hold on
 set(gca, 'FontName','Times New Roman','FontSize',12);
-xlabel({('\itx');('                                     \rm(c)')},'Rotation',0);
+xlabel({('\itx');('                                 \rm(c) \itE(0,1,1)')},'Rotation',0);
 ylabel(('\ity'),'Rotation',0);
 zlabel('\itz','Rotation',360,'position',[0 0 1.05]);
 
@@ -86,7 +86,7 @@ end
 grid on
 hold on
 set(gca, 'FontName','Times New Roman','FontSize',12);
-xlabel({('\itx');('                                     \rm(d)')},'Rotation',0);
+xlabel({('\itx');('                                 \rm(d) \itF(1,0,1)')},'Rotation',0);
 ylabel(('\ity'),'Rotation',0);
 zlabel('\itz','Rotation',360,'position',[0 0 1.05]);
 
@@ -106,7 +106,7 @@ end
 grid on
 hold on
 set(gca, 'FontName','Times New Roman','FontSize',12);
-xlabel({('\itx');('                                     \rm(e)')},'Rotation',0);
+xlabel({('\itx');('                                 \rm(e) \itG(1,1,0)')},'Rotation',0);
 ylabel(('\ity'),'Rotation',0);
 zlabel('\itz','Rotation',360,'position',[0 0 1.05]);
 
@@ -126,7 +126,7 @@ end
 grid on
 hold on
 set(gca, 'FontName','Times New Roman','FontSize',12);
-xlabel({('\itx');('                                     \rm(f)')},'Rotation',0);
+xlabel({('\itx');('                                 \rm(f) \itH(1,1,1)')},'Rotation',0);
 ylabel(('\ity'),'Rotation',0);
 zlabel('\itz','Rotation',360,'position',[0 0 1.05]);
 
